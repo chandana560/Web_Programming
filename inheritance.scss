@@ -1,0 +1,22 @@
+%message {
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+$myFontSize: 30px;
+$weight : bold;
+
+.success {
+    @extend %message;
+    font-size: $myFontSize;
+    font-weight: $weight;
+}
+
+
+.warning {
+    @extend %message;
+    font-size: 30px;}
+
+.error {
+    @extend %message;
+    font-size: 30px;}
